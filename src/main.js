@@ -1,10 +1,7 @@
-import App from './App.svelte';
+import Election from '@/views/Election.svelte';
 
-const app = new App({
+const app = new Election({
 	target: document.body,
-	props: {
-		name: 'world'
-	}
 });
 
 export default app;
