@@ -8,7 +8,7 @@ import alias from '@rollup/plugin-alias';
 const production = !process.env.ROLLUP_WATCH;
 
 const jsResolver = resolve({
-	extensions: ['.js', '.svelte']
+	extensions: ['.js', '.svelte', '.css']
 });
 
 function serve() {
